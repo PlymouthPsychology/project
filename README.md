@@ -1,6 +1,8 @@
-# Psychology Project Handbook
+# [Psychology Project Handbook](https://plymouthpsychology/project/main/_book/index.html)
 
 This is a conversion of a Word document into R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+
+To access it, please click the title link above. 
 
 It is hosted on the [School of Psychology github account](https://github.org/PlymouthPsychology/project)
 
