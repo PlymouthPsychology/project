@@ -1,4 +1,4 @@
-# [Psychology Project Handbook](https://plymouthpsychology.github.io/project/main/_book/index.html)
+# [Psychology Project Handbook](https://plymouthpsychology.github.io/project/index.html)
 
 This is a conversion of a Word document into R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
 
