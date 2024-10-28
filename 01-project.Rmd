@@ -1,0 +1,51 @@
+# What is a project?
+
+A project is an *independent* piece of *empirical research* carried out by a student under the supervision of a supervisor. Within this general definition there are several types of project, and this document sets out what is permitted as well as the expected conduct by both supervisors and students.
+
+## What is the purpose of a project and how is it achieved?
+
+A project is a piece of research which can, in some cases, make a genuine contribution to scientific advancement. In all cases, the project is a vehicle for student learning as well as being a mechanism for student assessment. In order to achieve these two objectives, students are supervised in areas of research competence as defined by the supervisor. This area of research competence will vary in breadth. Some supervisors will supervise a range of topics within which they will be prepared to supervise. Others will identify only a narrow group of topics and where the research question is already formulated to some extent. It is important to recognise that although students have some choice in the selection of the project (both in the allocation to supervisors and afterwards), they do not have unlimited choice, and once allocated to a supervisor, that choice will be curtailed to varying degrees. Students cannot be supervised on topics that fall outside the ‘research umbrella’ of the supervisor, as defined by the supervisor.
+
+The three objectives of the project (learning, assessment, and advance of research) need to be balanced and one objective cannot take priority over any other. The supervisor has the responsibility for ensuring that this balance is properly met, and that the educational and assessment needs of the student are never sacrificed for more general research purposes.
+
+Students are allocated to supervisors towards the end of their second year, using a web based system that provides the student with some opportunity for choice. Inevitably, however, some students will be supervised in areas which may not be of their first choice.
+
+
+
+## What is meant by empirical research?
+
+Empirical research means that the research involves data. Typically these data are collected by the student from human participants – or more rarely animals. There are two exceptions to this pattern of research. The first is where the student accesses archived data – for example data from the ESRC data archive or a researcher’s corpus of data. In such cases the research activity should be an equivalent load to a project involving the collection of data from participants. The second exception is where the project involves some form of modelling and therefore produces data from computer simulations or mathematical routines.
+
+The total amount of student time allocated to a project is about 400 hours over 24 weeks (i.e., about 16 hours per week). Therefore it is normal for data collection and analysis not to exceed about 100 hours (i.e. no more than about 12 days full time work). Most projects can be completed in a much shorter period of time than these maxima. Supervisors are responsible for ensuring that students do not undertake over-burdensome projects that involve excessive data collection and which might jeopardise the performance of the student on other modules. The result of this time constraint is that it may be that students are prevented from collecting a sufficiently large sample size to achieve statistical significance (i.e. their research is under-powered). However, if this is the case, students are not penalised in terms of marking – students should use the statistical and other procedures appropriate for a larger sample, and comment in the discussion that the project is under-powered.
+
+## What does independent research mean?
+
+There are few words that create more confusion than the word ‘independent research’. Independent research does not mean that the research is carried out independently of the supervisor. What it means is that it is the student’s responsibility to carry out the research not the supervisor’s! The supervisor is expected to provide advice about the research question, design, analysis and write up, but you as a student are responsible for the decisions you make about your project. The only exceptions to this concern projects involving external agencies and matters of ethical concern, in which case you must follow your supervisor’s instructions.
+
+It is worth reflecting that no research is truly ‘independent’. All research (or at least all good research) arises out of previous research, and it is a useful learning objective that students should be able to see research from this perspective – the perspective that scientific knowledge accumulates.
+
+Supervisors may if they wish supervise ‘linked-group projects’ i.e., projects that are linked in concept or design and involve group collaboration (such as for data collection). In some cases the projects may be identical, simply because on reflection, there is one best way to collect data. This form of collaborative working is allowed only if the following rule is adhered to:
+
+**No student can be disadvantaged by the behaviour of another student.**
+
+Thus, any project must be set up so that the data could be analysed without the use of another student’s data. There are cases, where students collaborate happily and wish to use each other’s data. This is allowed so long as there is a clear statement about the data collection at the beginning of the project, stating who collected which data (see the document on handing in the project). Initial analysis may be undertaken as a group, but the latter stages of analysis and the write up of the project must be completely independent.
+
+
+
+## Placement-based projects
+
+Students who are on placements may wish to base their project on some part of their experience, such as research conducted during their placement year. For this to be successful, several things need to be in place prior to the start of the project year. It is best to begin talking early to a member of staff about the possibility of their supervising you.
+
+A clear plan for the project (experimental question, predictions, methods) is required. This need not be 100% complete when you approach a member of staff about supervising you on a placement-based project. You could work out the details in discussion. A good project needs a straightforward, clear and tractable experimental question from which you can derive clear testable predictions. Often this involves simplifying initial ideas.
+
+Your academic supervisor will need details of your on-site placement supervisor, and receive from them an assurance that your on-site placement supervisor would advise you during the conduct of your placement-based project. This is necessary because placement-based research is often on questions that the on-site placement supervisor is expert in, but that School supervisors are not.
+
+A crucial consideration is that students are required to collect data of some kind during their project year. Students cannot simply run an analysis on data collected during their placement year. This may involve you running a test on control participants at the university or collection of additional data at your placement institution.
+
+If a student conducts research as part of their placement duties during their placement year then that activity should be covered by the placement organisation’s research-ethics system. You will need NHS ethics to cover any research you do with NHS patients or on NHS premises. This takes much longer to obtain than does ethical clearance from the School UG Ethics Committee. Students will also need undergraduate ethical clearance from the School UG Ethics Committee before conducting research in their project year. You can start the research as part of your placement if you have NHS (or other ethics body) clearance. If this research continues into the project year (and becomes your project) then School UG Ethics Committee approval is required. You should cite your existing placement-institution approval in your application.
+
+
+
+
+
+

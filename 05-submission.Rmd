@@ -1,0 +1,27 @@
+# Submitting
+
+## Submitting your project
+
+The project should generally accord with APA format, but modified where appropriate with the style guidelines specified by the School of Psychology. There is no overall word limit, so no word count is needed. Project reports should be written in the typical style of a peer-reviewed journal article. As this style varies across sub-disciplines of psychology it is worthwhile talking to your supervisor to identify a few good examples.
+
+- Have a title page with your name, student number and the title of the project (note graphics for this cover page are optional).
+- The next page(s) should consist of a contents page which lists the content with page numbers, including appendices.
+- The next page should be a statement that you have complied with ethical guidelines and how this has been achieved. For projects where there were particular ethical issues, you should include a brief statement stating what these issues were and how you dealt with them. This page should also include a statement that you have collected all the data reported in your project, or where you are sharing data, the data you have collected and that which others have collected.
+- Include a statement of acknowledgement(s) if you wish to do so (this is optional).
+- Include a one page Abstract which should be no more than 250 words. (It is optional whether you change the font size for the abstract)
+- Include an Introduction section. This should be no more than 7 pages according to the School style guidelines.
+- If you include a figure in your Introduction or Discussion, put the figure on a separate page. In the text write ‘Figure X about here’ (on one line), and then place the page with the figure on it between that text page and the next (i.e., contrary to APA format, do not put all figures at the end). In effect, this means that figures count as only one line in either the Introduction or Discussion.
+- Quantitative projects should Include a Methods and Results section (there are no page limits but bear in mind that excessively lengthy accounts will be inconsistent with the practice of journal article writing). See below for qualitative projects.
+- Include a Discussion section. For quantitative projects the Discussion should be no more than 5 pages. See below for qualitative projects.
+- Qualitative projects will have a combined Results and Discussion or Analysis section that can be up to 16 pages, plus up to 4 pages of Conclusions that summarise the main findings, identify implications of the analysis and directions for future research. Extracts used in the analysis should be Arial or Courier New, font size 10 and if appropriate indented at the both the left and right margins. Use line numbers if appropriate.
+- The Introduction and Discussion sections can be subdivided into subsections in the normal way, but the total pages are those shown above.
+- Include a list of references – there is no page limit. for the References section
+- Your project must be submitted as a single pdf file using Moodle (unless you have prior approval from the module leader for submission of a printed version). Please ensure you know how to produce and submit a pdf copy of your project well in advance of the deadline. Your supervisor and the School of Psychology technicians will be happy to provide support and advice.
+- Ancillary material such as data files (e.g. SPSS, R, or Excel files), interview transcripts, any sign up sheet or other form of informed consent and any other material that does not from part of the main body of the report, should be given to your project supervisor prior to the submission deadline. **Please consult with your project supervisor about what should be submitted and the method for submission.** Appendices can be used to provide supplementary material to the reader, such as copies of unpublished questionnaires, stimulus materials, or other material agreed with your supervisor. However, you should not include material in an appendix if it is crucial for the reader to understand your research. Appendices will not be marked and the marker should not be expected to look at them. Make sure that all essential details are presented within the main body of your report, and not in appendices.
+- If you want your project to be considered for inclusion in the Plymouth Student Scientist (<https://pearl.plymouth.ac.uk/tpss/>), an electronic journal showcasing excellence in undergraduate student research from Plymouth University, then also submit the signed permission form (available from the journal’s website).
+
+Raw data that takes the form of questionnaires, tapes and videos should be handed in to your tutor at the time you hand in your project. For other forms of raw data, obtain advice from your supervisor and follow that advice.
+
+## IMPORTANT
+
+If you have any questions about the information given in these instructions, then ask your supervisor.

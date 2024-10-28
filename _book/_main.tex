@@ -1,0 +1,370 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Stage 4 Research-Project Guide 2024/25},
+  pdfauthor={Matt Roser},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Stage 4 Research-Project Guide 2024/25}
+\author{Matt Roser}
+\date{October 2024}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\begin{figure}
+\centering
+\caption{School of Psychology logo}
+\end{figure}
+
+\chapter{What is a project?}\label{what-is-a-project}
+
+A project is an \emph{independent} piece of \emph{empirical research} carried out by a student under the supervision of a supervisor. Within this general definition there are several types of project, and this document sets out what is permitted as well as the expected conduct by both supervisors and students.
+
+\section{What is the purpose of a project and how is it achieved?}\label{what-is-the-purpose-of-a-project-and-how-is-it-achieved}
+
+A project is a piece of research which can, in some cases, make a genuine contribution to scientific advancement. In all cases, the project is a vehicle for student learning as well as being a mechanism for student assessment. In order to achieve these two objectives, students are supervised in areas of research competence as defined by the supervisor. This area of research competence will vary in breadth. Some supervisors will supervise a range of topics within which they will be prepared to supervise. Others will identify only a narrow group of topics and where the research question is already formulated to some extent. It is important to recognise that although students have some choice in the selection of the project (both in the allocation to supervisors and afterwards), they do not have unlimited choice, and once allocated to a supervisor, that choice will be curtailed to varying degrees. Students cannot be supervised on topics that fall outside the `research umbrella' of the supervisor, as defined by the supervisor.
+
+The three objectives of the project (learning, assessment, and advance of research) need to be balanced and one objective cannot take priority over any other. The supervisor has the responsibility for ensuring that this balance is properly met, and that the educational and assessment needs of the student are never sacrificed for more general research purposes.
+
+Students are allocated to supervisors towards the end of their second year, using a web based system that provides the student with some opportunity for choice. Inevitably, however, some students will be supervised in areas which may not be of their first choice.
+
+\section{What is meant by empirical research?}\label{what-is-meant-by-empirical-research}
+
+Empirical research means that the research involves data. Typically these data are collected by the student from human participants -- or more rarely animals. There are two exceptions to this pattern of research. The first is where the student accesses archived data -- for example data from the ESRC data archive or a researcher's corpus of data. In such cases the research activity should be an equivalent load to a project involving the collection of data from participants. The second exception is where the project involves some form of modelling and therefore produces data from computer simulations or mathematical routines.
+
+The total amount of student time allocated to a project is about 400 hours over 24 weeks (i.e., about 16 hours per week). Therefore it is normal for data collection and analysis not to exceed about 100 hours (i.e.~no more than about 12 days full time work). Most projects can be completed in a much shorter period of time than these maxima. Supervisors are responsible for ensuring that students do not undertake over-burdensome projects that involve excessive data collection and which might jeopardise the performance of the student on other modules. The result of this time constraint is that it may be that students are prevented from collecting a sufficiently large sample size to achieve statistical significance (i.e.~their research is under-powered). However, if this is the case, students are not penalised in terms of marking -- students should use the statistical and other procedures appropriate for a larger sample, and comment in the discussion that the project is under-powered.
+
+\section{What does independent research mean?}\label{what-does-independent-research-mean}
+
+There are few words that create more confusion than the word `independent research'. Independent research does not mean that the research is carried out independently of the supervisor. What it means is that it is the student's responsibility to carry out the research not the supervisor's! The supervisor is expected to provide advice about the research question, design, analysis and write up, but you as a student are responsible for the decisions you make about your project. The only exceptions to this concern projects involving external agencies and matters of ethical concern, in which case you must follow your supervisor's instructions.
+
+It is worth reflecting that no research is truly `independent'. All research (or at least all good research) arises out of previous research, and it is a useful learning objective that students should be able to see research from this perspective -- the perspective that scientific knowledge accumulates.
+
+Supervisors may if they wish supervise `linked-group projects' i.e., projects that are linked in concept or design and involve group collaboration (such as for data collection). In some cases the projects may be identical, simply because on reflection, there is one best way to collect data. This form of collaborative working is allowed only if the following rule is adhered to:
+
+\textbf{No student can be disadvantaged by the behaviour of another student.}
+
+Thus, any project must be set up so that the data could be analysed without the use of another student's data. There are cases, where students collaborate happily and wish to use each other's data. This is allowed so long as there is a clear statement about the data collection at the beginning of the project, stating who collected which data (see the document on handing in the project). Initial analysis may be undertaken as a group, but the latter stages of analysis and the write up of the project must be completely independent.
+
+\section{Placement-based projects}\label{placement-based-projects}
+
+Students who are on placements may wish to base their project on some part of their experience, such as research conducted during their placement year. For this to be successful, several things need to be in place prior to the start of the project year. It is best to begin talking early to a member of staff about the possibility of their supervising you.
+
+A clear plan for the project (experimental question, predictions, methods) is required. This need not be 100\% complete when you approach a member of staff about supervising you on a placement-based project. You could work out the details in discussion. A good project needs a straightforward, clear and tractable experimental question from which you can derive clear testable predictions. Often this involves simplifying initial ideas.
+
+Your academic supervisor will need details of your on-site placement supervisor, and receive from them an assurance that your on-site placement supervisor would advise you during the conduct of your placement-based project. This is necessary because placement-based research is often on questions that the on-site placement supervisor is expert in, but that School supervisors are not.
+
+A crucial consideration is that students are required to collect data of some kind during their project year. Students cannot simply run an analysis on data collected during their placement year. This may involve you running a test on control participants at the university or collection of additional data at your placement institution.
+
+If a student conducts research as part of their placement duties during their placement year then that activity should be covered by the placement organisation's research-ethics system. You will need NHS ethics to cover any research you do with NHS patients or on NHS premises. This takes much longer to obtain than does ethical clearance from the School UG Ethics Committee. Students will also need undergraduate ethical clearance from the School UG Ethics Committee before conducting research in their project year. You can start the research as part of your placement if you have NHS (or other ethics body) clearance. If this research continues into the project year (and becomes your project) then School UG Ethics Committee approval is required. You should cite your existing placement-institution approval in your application.
+
+\chapter{Ethical clearance}\label{ethical-clearance}
+
+All research conducted by staff and students must be in accordance with the ethical principles and codes set out by the British Psychological Society. \href{https://www.bps.org.uk/sites/bps.org.uk/files/Policy/Policy\%20-\%20Files/BPS\%20Code\%20of\%20Human\%20Research\%20Ethics.pdf}{These guidelines can be found here}.
+
+All students must have ethical clearance before starting on the empirical component of their project. This rule applies to ALL projects, including, for example, projects which use archived data and modelling projects. Failure to obtain ethical clearance will lead to a zero being awarded in both project modules.
+
+The Ethics form is completed online on the School Ethics system, linked to from this page \url{https://www.psy.plymouth.ac.uk/Home/}.
+
+Login to complete your study details and upload your brief and debrief documents and then submit the form electronically. Your supervisor will review and approve your form, or return it to you for correction and resubmission. Once they have approved it you will received a confirmation email and then your form will be passed to the School Ethics committee. If you have selected that you need special equipment on the Technical page, the confirmation email will also invite you to come talk to the Tech Office to discuss what you need
+
+When submitting your project you must include a statement about the ethical issues involved in your project (see section on handing in your project).
+
+Students must comply with the BPS and Plymouth University ethical guidelines not only in principle but also in practice. If complaints are received about the way a student conducts his or her project then, after a fair investigation, this may lead to marks being deducted.
+
+Please note that there are special requirements when dealing with outside agencies. These include: research on NHS trust property (or involving patient participants recruited by NHS professionals but seen -- or otherwise engaged -- at other locations) must be given ethical clearance from the NHS -- called the Local Ethics Research Committee; when working with children there must be a DBS check in place (organised by The Faculty Compliance Team, 4th Floor Rolle building), and there must either be positive permission from parents, or negative permission but with a fail-safe method of communicating with parents. For other agencies (e.g., police, prisons, companies etc), it is necessary to comply with the ethical procedures of these organisations. Research activities conducted off-campus should comply with Plymouth University Health \& Safety guidelines and with those of any external agencies involved.
+
+\chapter{Supervision}\label{supervision}
+
+\section{What can the student expect from the supervisor?}\label{what-can-the-student-expect-from-the-supervisor}
+
+The research idea often comes from the supervisor. The research design (i.e., how that idea is tested) is arrived at through discussion and is central to the project. Although students may have an initial idea for a design, many students do not, at the end of the second year, have the experience to develop a good design. The supervisor is responsible for giving the student a frank assessment of the quality and scope of the student's suggested design and providing guidance about alternatives if necessary. It is important to recognise that students vary in their ambition, and the advice given to students by supervisors should be appropriate to the student's ambition. The supervisor is also expected to provide advice about likely practical problems that may affect choice of projects (e.g., difficulties with ethical clearance from external bodies), and ensure that the work load is appropriate (see above).
+
+Once the overall design is settled, the student may then have to work on details of the methodology, again following advice as appropriate by the supervisor. The supervisor signs the ethics form, but the form is completed by the student.
+
+The student will be responsible for carrying out a literature search -- the supervisor may provide some guidance but should not provide the student with a full list of references.
+
+The student should collect the data in a manner agreed with the supervisor.
+
+Once the data have been collected, the student should analyse and interpret the data with advice as determined by the supervisor. There is often confusion about the amount of help that can be given by the supervisor, and the situation is made more complex by the great variety of projects. However, here are some pointers for staff and students alike:
+
+The student and supervisor should discuss the analysis options, and the supervisor is responsible for ensuring that the student has made a sensible choice about analysis. The supervisor can provide tutorial advice about statistical and other procedures. In some cases, supervisors carry out the analysis on their own computer as a way of showing the student what is done, and then the student goes away and does it by him or herself. However, the supervisor should not carry out the statistical analysis -- this must be carried out by the student after advice has been given.
+
+The student then writes up the project, and the supervisor should respond to direct questions about options in the write up. Supervisors should not read drafts but can read a write-up summary document submitted by the student and give verbal feedback in a meeting to discuss it (see the section on Feedback).
+
+It is commonly the case that the amount of time and assistance required by the student varies over the course of the project and varies between students. More advice is usually needed towards the beginning of a project, but a maximum amount of supervision per week is estimated at 20 minutes -- though sometimes more when students are supervised in groups. Once the student is running the project then supervision may be minimal in some cases but not invariably so. Advice should only be sought when it is needed but students should expect to have regular (weekly) contact (virtual or face-to-face meetings and email) with their supervisor.
+
+The supervisor will give some advice about literature searching to be carried out by the student. The supervisor can give advice about the overall structure of the write up, and respond to specific queries of the student. However, because the project is a piece of assessment, the supervisor may not read and correct the project for the student -- though should respond to specific queries about it (i.e., be reactive rather than proactive).
+
+Inevitably, there is some variation in the amount of advice given by supervisors, because some students are unable to operate without directive information. If a student needs an extraordinary level of support, then this will be taken into account in the marking process. If you are concerned that you are getting too much or too little advice, then discuss this with your supervisor. Open communication to address potential differences of expectation or understanding is encouraged. If needed, you can talk to the module leader about this.
+
+Supervisors vary in the way they like to supervise students (e.g., some prefer to use emails, some direct contact, some use group advice etc), and students should establish at the outset what pattern of supervision is expected. Supervisors of linked projects may suggest group meetings, but it is up to the discretion of the supervisor how to do this. However, students should feel that direct queries are being answered appropriately and within a reasonable time frame. Under normal circumstances a student should be able to see the supervisor within 7 days and receive email replies within 48 hours.
+
+Project write-ups should be modelled on the structure on a journal article appropriate to the topic area. This structure can vary between topics and methods (e.g.~qualitative versus quantitative). For most projects, there is a limit of 7 pages for the Introduction and 5 pages for the Discussion. There is no limit for the method and results sections. For some qualitative projects (e.g.~discursive studies), it is appropriate to merge the results and discussion and there is a word limit of 16 pages on the combined section, including quotations and extracts, plus 4 pages for conclusions (use the standard format in use for essays). Supervisors must give their specific approval if this non-standard format is to be used. Supervisors may not extend the page limits.
+
+A project should therefore appear like a rather lengthy journal article, with all the conventions of writing found in a published article. It may be obvious but a good way to see what a good project looks like is to read journal articles!
+
+\section{What can the supervisor expect from the student?}\label{what-can-the-supervisor-expect-from-the-student}
+
+Staff time is under considerable pressure, and students are expected to use staff supervision time efficiently, turning up to meetings as arranged, and preparing for meetings so as to use the time effectively etc. Good students show an ability to seek advice when advice is needed and use that advice effectively. Good students know when and how to seek advice.
+
+Good students are active agents. That is, they are motivated to do things by themselves! When they need help, they ask for it. They don't wait to be helped. The consequence is that the supervisor is often able to take a reactive role -- i.e., reacting to specific queries by the student. Remember that the project has both an educational and an assessment objective. You will not be penalised for asking sensible questions.
+
+When marking, supervisors take into account the conduct of the student. Students are not penalised for asking for advice. On the contrary, seeking appropriate advice is the hallmark of a good student. Marks may, however, be deducted if a student exhibits over-dependence or an inability to carry out advice given. The supervisor is responsible for informing the student if the student is behaving in an overly dependent fashion.
+
+\section{Can students ask other members of staff for project advice?}\label{can-students-ask-other-members-of-staff-for-project-advice}
+
+The simple answer to this question is no unless the approach to another member of staff is made by the supervisor.
+
+The exception to the above rule occurs where a student has a complaint about a supervisor (see later) when they can contact the project leader directly. However, the project leader cannot be used as a substitute for your supervisor when your supervisor is away.
+
+\section{What happens if a student feels dissatisfied with their supervision?}\label{what-happens-if-a-student-feels-dissatisfied-with-their-supervision}
+
+Students and supervisors should both read the sections above on expectations. They should meet early and regularly and establish the method of communication to the satisfaction of all at the outset. This requires students to be engaged and proactive early in the project. If a student feels unhappy about some aspect of their supervision, they should try to talk to their supervisor about it at the earliest opportunity to resolve the matter collaboratively. Don't leave doing this too late - problems are solved much more easily the earlier they are addressed. If this is not possible or is ineffective, then they should contact the project coordinator by email in the first instance, explaining the main grounds for complaint. Alternatively, they could contact their personal tutor. Issues of supervision can only be resolved if the supervisor is aware of them. It is best that this comes direct and early from the student. This clear communication of expectations ensures that the great majority of projects proceed smoothly, although there are challenges and obstacles to be overcome along the way. There is a formal University complaint procedure by which complaints can be made by students if their attempts to resolve matters directly, or via the projects coordinator or personal tutor have been unsuccessful (see elsewhere in this handbook).
+
+Keeping a research diary throughout the course of your project work is good practice, and will also help in resolving any disagreements or other difficulties.
+
+If you wish to discuss your supervision in confidence then please contact the module leader, Matt Roser (\href{mailto:matt.roser@plymouth.ac.uk}{\nolinkurl{matt.roser@plymouth.ac.uk}}).
+
+\chapter{Assessment}\label{assessment}
+
+\section{How are the projects marked?}\label{how-are-the-projects-marked}
+
+The project module counts for 40 credits. The project is marked by the supervisor and another member of staff, moderated by the project coordinator and externally reviewed by the external examiner.
+
+The marking of projects takes into account the fact that projects come in various forms. For example, the structure of a qualitative project is different from a quantitative project. Equally, the work carried out for archival or modelling research is different. The two types of mark reflect this diversity.
+
+Typically, the marking is carried out separately for a) the abstract, introduction and discussion sections and b) the method and results sections and the conduct of the project. These two marks will be collated into the final project mark by each of the two markers, who will then meet to discuss their impressions and marks and settle on one final mark for the entire report.
+
+\section{Feedback}\label{feedback}
+
+Feedback on all aspects of your research should be available in discussion with your supervisor. For instance, providing them with a summary of your project as you understand it, and talking through this summary with them in your first meetings, discussing and deciding on practical matters (such as the experimental design and timeline for research milestones), and regular guidance by email or in meetings \textbf{- all constitute feedback.}
+
+A feedback session in which you can discuss a written summary and bullet-point plan of your report with your supervisor will be held in the \textbf{week commencing 3rd March}. Further details and guidelines will be communicated closer to that time, but the aim is for all students to provide their supervisor with a two-page summary of their work, encompassing the research background, question and rationale, methods, results, and points of discussion including the implications of results for the research question. Your supervisor will give you verbal feedback in a meeting to discuss this skeleton plan of your report, which you should be writing by this time. This will help you to know that you have focused and organized your writing to present the correct information in the correct way with plenty of time to make amendments if needed.
+
+Your presentation in Semester 2 will function in a similar way. In your second presentation you will need to cover all aspects of your research -- the background, question, methods, results, and their implications. Supervisors and students should aim to hold their presentations in the \textbf{week commencing 17th March} . You can obtain immediate verbal feedback from your supervisor at that time or meet separately with them afterward if you want to do this without other students present.
+
+The final report marks are posted after the last Stage 4 exam. After the final marks have been posted, if you think it may be beneficial to you, you may contact your supervisor to discuss feedback on your report.
+
+\chapter{Submitting}\label{submitting}
+
+\section{Submitting your project}\label{submitting-your-project}
+
+The project should generally accord with APA format, but modified where appropriate with the style guidelines specified by the School of Psychology. There is no overall word limit, so no word count is needed. Project reports should be written in the typical style of a peer-reviewed journal article. As this style varies across sub-disciplines of psychology it is worthwhile talking to your supervisor to identify a few good examples.
+
+\begin{itemize}
+\tightlist
+\item
+  Have a title page with your name, student number and the title of the project (note graphics for this cover page are optional).
+\item
+  The next page(s) should consist of a contents page which lists the content with page numbers, including appendices.
+\item
+  The next page should be a statement that you have complied with ethical guidelines and how this has been achieved. For projects where there were particular ethical issues, you should include a brief statement stating what these issues were and how you dealt with them. This page should also include a statement that you have collected all the data reported in your project, or where you are sharing data, the data you have collected and that which others have collected.
+\item
+  Include a statement of acknowledgement(s) if you wish to do so (this is optional).
+\item
+  Include a one page Abstract which should be no more than 250 words. (It is optional whether you change the font size for the abstract)
+\item
+  Include an Introduction section. This should be no more than 7 pages according to the School style guidelines.
+\item
+  If you include a figure in your Introduction or Discussion, put the figure on a separate page. In the text write `Figure X about here' (on one line), and then place the page with the figure on it between that text page and the next (i.e., contrary to APA format, do not put all figures at the end). In effect, this means that figures count as only one line in either the Introduction or Discussion.
+\item
+  Quantitative projects should Include a Methods and Results section (there are no page limits but bear in mind that excessively lengthy accounts will be inconsistent with the practice of journal article writing). See below for qualitative projects.
+\item
+  Include a Discussion section. For quantitative projects the Discussion should be no more than 5 pages. See below for qualitative projects.
+\item
+  Qualitative projects will have a combined Results and Discussion or Analysis section that can be up to 16 pages, plus up to 4 pages of Conclusions that summarise the main findings, identify implications of the analysis and directions for future research. Extracts used in the analysis should be Arial or Courier New, font size 10 and if appropriate indented at the both the left and right margins. Use line numbers if appropriate.
+\item
+  The Introduction and Discussion sections can be subdivided into subsections in the normal way, but the total pages are those shown above.
+\item
+  Include a list of references -- there is no page limit. for the References section
+\item
+  Your project must be submitted as a single pdf file using Moodle (unless you have prior approval from the module leader for submission of a printed version). Please ensure you know how to produce and submit a pdf copy of your project well in advance of the deadline. Your supervisor and the School of Psychology technicians will be happy to provide support and advice.
+\item
+  Ancillary material such as data files (e.g.~SPSS, R, or Excel files), interview transcripts, any sign up sheet or other form of informed consent and any other material that does not from part of the main body of the report, should be given to your project supervisor prior to the submission deadline. \textbf{Please consult with your project supervisor about what should be submitted and the method for submission.} Appendices can be used to provide supplementary material to the reader, such as copies of unpublished questionnaires, stimulus materials, or other material agreed with your supervisor. However, you should not include material in an appendix if it is crucial for the reader to understand your research. Appendices will not be marked and the marker should not be expected to look at them. Make sure that all essential details are presented within the main body of your report, and not in appendices.
+\item
+  If you want your project to be considered for inclusion in the Plymouth Student Scientist (\url{https://pearl.plymouth.ac.uk/tpss/}), an electronic journal showcasing excellence in undergraduate student research from Plymouth University, then also submit the signed permission form (available from the journal's website).
+\end{itemize}
+
+Raw data that takes the form of questionnaires, tapes and videos should be handed in to your tutor at the time you hand in your project. For other forms of raw data, obtain advice from your supervisor and follow that advice.
+
+\section{IMPORTANT}\label{important}
+
+If you have any questions about the information given in these instructions, then ask your supervisor.
+
+\chapter{Recruiting participants}\label{recruiting-participants}
+
+\section{Use of the SONA participant pool}\label{use-of-the-sona-participant-pool}
+
+The School uses an online system of experimental participation called SONA. This system will be used for both student and staff experiments. Each student receives an allocation of 40 points to use for recruitment via SONA. Each point is worth half an hour of participant time. Participants will be both first and second year students. In cases where you leave recruitment until very late in the academic year you may find it hard to find students and use your points, so we recommend recruiting participants as early as possible.
+
+The time allotted to each participant should include meeting your participant, giving them any practice trials and fully debriefing them. Therefore if your study takes about 15 minutes to run, you will probably need at least 30 minutes to meet participants and later to debrief them after they have finished, as well as time to get yourself ready for your next participant. If your experiment takes half an hour of actual running time, you will need to allow more time than this between participants, and you will have to give your participants more than one participation point as it is essential that you properly introduce them to the study and debrief them. The number of points to which you will be entitled will be notified early in the first semester.
+
+The procedure for using the pool, in outline, is as follows (more of the details will be given to you at the start of the academic year):
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.1324}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.8676}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Step 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Make sure you have obtained ethical clearance to run your study. You will be informed by the Senior Programme Administrator via e-mail when you have this clearance. You should note that starting to collect data for your study without ethical clearance will result in a mark of zero for both the component modules of the project.
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Step 2 & Organise rooms for testing. This should be done through the technical office, and needs to be done first, because you can't advertise your study unless you can tell participants where and when the study will be held. Note that the system itself does not automatically book rooms, you have to do this yourself. \\
+Step 3 & You will be able to enter details into the on-line system even before you get ethical clearance and the study is made `live' on the system. You should include all the details asked for by the system, which will include (at least) the title of the study, information about the study, your contact details, and location and times of the study. Provide as much information as you can, but you must not do anything to suggest that your experiment is shorter than the allotted time. For example, if the study takes less than half an hour then you must advertise it as a half-hour experiment, if it takes more than half an hour but less than an hour then you must advertise it as lasting for one hour (and you must give two points) and so on. If you are using the on-line system, then this information can be logged and processed automatically. Once you have done this, and after you have ethical clearance, email your supervisor, who will check the study agrees with what you said in your ethics application. The supervisor then clicks the button on the study page ``Request Approval'', which sends a request to make the study visible. \\
+Step 4 & The electronic system should send reminders automatically to your participants. There are rules about what happens if they (or you) fail to turn up, which are as follows. Cancellation of participation must be done by 4pm the day before the timeslot - this may be less than 24 hours if the study is the next morning. If a participant does not give you this notice, then they do not get any points and you are able to use their points for someone else. If you do not turn up to an experiment that you are scheduled to run, then you have to give the participant the point anyway. Any disputes on this matter should be referred to the \href{mailto:sonadmin.psy@plymouth.ac.uk}{participation point co-ordinator}. The on-line system should contain the information necessary to resolve any disputes. \\
+Step 5 & Ensure that each participant reads and signs the Participation Consent Form \emph{before} taking part in your experiment. The Participation Consent Form must be signed by all participants taking part in your experiment whether they receive participation points or not. \\
+Step 6 & Carry out your experiment in conformity with the guidelines specified by the British Psychological Society regarding informed consent, debriefing, etc. \\
+Step 7 & Once your participant has completed the study, enter this into the on-line system, which will record that you have used the point(s) and that the named participant has received it (them). Online studies can be configured to award points automatically. \\
+Step 8 & When you have completed your experiment, sign the Participation Consent Form to certify its authenticity and include it in your project report. \\
+\end{longtable}
+
+\section{Recruiting participants outside SONA}\label{recruiting-participants-outside-sona}
+
+You may use participants outside of the pool provided you have gained the necessary ethical permissions and clearances. You are not permitted to pay subjects in order to get them to participate in your project.
+
+\chapter{Technical support}\label{technical-support}
+
+The Technical Office is in Link 109. There is a hatch and a bell you can ring to request support.
+
+\section{Requesting assistance}\label{requesting-assistance}
+
+The technical page of the Ethics website allows you to request technical assistance and support. The technical staff can provide assistance with any technical aspect of your data gathering including producing custom software for testing participants, and providing particular hardware requirements. This sheet must be completed by all students whether or not technical support is required.
+
+To request technical assistance you need to fill in an additional form giving precise details of what you require. This has to be countersigned by your supervisor. You can submit this whilst you are waiting for ethical clearance, but the tech office can not start work on your project until ethics approval has been received. It is worth discussing your requirements as soon as you hand in your ethics form as work is dealt with on a first come first served basis.
+
+When planning your project timescale remember to allow time to pilot your study properly to ensure it works as you require - you should use friends or colleagues to do this in the same conditions as your live participants. If using technical support you will be asked by your technician to complete a sign-off form before you start data gathering.
+
+\section{Booking Laboratories}\label{booking-laboratories}
+
+All lab space is booked through the \href{https://psy.plymouth.ac.uk}{technical office website}. If you are using specialist facilities provided by your supervisor then you need to make sure that your supervisor has block booked the facility and if you are collecting keycards through the tech office that they have been informed of your entitlement to use the room.
+
+During term time rooms can only be booked for either the morning or the afternoon. All keycards must be returned between 12:30 and 12:45. Please note that the access to link block closes at 17:00 and you must schedule all testing to finish by 16:30 (16:00 on Fridays) in order to return the key before the tech office closes at 5pm (16:30 on Fridays).
+
+\section{Booking Equipment}\label{booking-equipment}
+
+The Technical Office holds a wide range of equipment which you can book for use on your project. All equipment must be collected and signed for in person, and you must provide a contact number. Late return of equipment will incur a penalty.
+
+\section{Assistance with problems}\label{assistance-with-problems}
+
+Please report all faults to the Technical Staff in the Technical Office. If you have a problem with a piece of borrowed equipment please do mention it when you return it - even if you think it was your fault we are not going to blame you, and would rather know about it before the next person takes it out.
+
+Any mains powered equipment which you bring onto university premises for use with other people (participants) must be `PAT' tested and certified. Use of untested equipment means that you are uninsured.
+
+You must not move any University or School equipment between rooms without informing the Technical Office.
+
+\chapter{Using psychological tests and questionnaires}\label{using-psychological-tests-and-questionnaires}
+
+It may be that your project involves the use of a questionnaire and/or a psychological test of some kind. It is highly probable that something along the lines you require is already in existence. Below are some sources that you may wish to explore to see if this is indeed the case.
+
+\section{The following sources are available in the University Library:}\label{the-following-sources-are-available-in-the-university-library}
+
+Streiner D L \& Norman G R (1991): \emph{Health Measurement Scales: A Practical Guide to their Development and Use}. Oxford: Oxford University Press.
+
+Goldman B A \& Busch J C (1974 - 1985): \emph{Directory of Unpublished Experimental Mental Measures Vols. 1 - 4.} New York: Human Sciences Press.
+
+Robinson J P, Shaver P R \& Wrightsman L S (1991): \emph{Measures of Personality Social and Psychological Attitudes}. San Diego: Academic Press.
+
+McDowell L \& Newell C (1987): \emph{Measuring Health: A Guide to Rating Scales and Questionnaires.} Oxford: Oxford University Press.
+
+\section{The following Websites also help to locate tests:}\label{the-following-websites-also-help-to-locate-tests}
+
+American Psychological Association: A list of test-related topics
+
+\url{http://www.apa.org/science/testing.html}
+
+The Buros Institute site - information about tests
+
+\url{http://www.unl.edu/buros/}
+
+Some computerised tests (a selection).
+
+\url{http://www.shrinktank.com/}
+
+Finally, the School of Psychology Test Library is available to final year students looking to use tests for their report and is free of charge. The library consists of around 400 tests and scales and is housed in the Link 305. The list of tests available can be checked on-line at \url{https://www.psy.plymouth.ac.uk/PsychometricTests/} If you cannot find the test you are looking for or want to change the format of a test and are not sure about how tests are protected by copyright laws, ask the Information Assistant for advice.
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
